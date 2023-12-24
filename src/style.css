@@ -1,0 +1,15 @@
+html *{
+    box-sizing:border-box;
+}
+body {
+    margin: 0px;
+}
+.container {
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+.map{
+    width: 100vw;
+    height: calc(100vh - 20px);
+}

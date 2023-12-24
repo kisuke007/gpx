@@ -1,0 +1,32 @@
+{
+  "name": "gpx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config webpack.dev.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.4",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@mapbox/leaflet-omnivore": "^0.3.4",
+    "css-loader": "^6.8.1",
+    "font-awesome": "^4.7.0",
+    "iso8601-js-period": "^0.2.1",
+    "leaflet": "^1.5.1",
+    "leaflet-easybutton": "^2.4.0",
+    "leaflet-timedimension": "^1.1.1",
+    "leaflet.fullscreen": "^1.4.2",
+    "leaflet.nontiledlayer": "^1.0.7",
+    "path": "^0.12.7",
+    "style-loader": "^3.3.3"
+  }
+}
