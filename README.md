@@ -1,6 +1,6 @@
-# GPX Log Player
+# GPX Player
 
-[Leaflet.TimeDimension](https://github.com/socib/Leaflet.TimeDimension) プラグインを用いて、GPXログを再生します。
+[Leaflet.TimeDimension](https://github.com/socib/Leaflet.TimeDimension) プラグインを用いて、GPSログ(GPXファイル)を再生します。
 ほぼ、[Example 9](https://github.com/socib/Leaflet.TimeDimension/blob/master/examples/js/example9.js) の通りの実装です。
 GPXファイルを読み込み、再生ボタンを押すと、アイコンと軌跡がアニメーション表示されます。
 表示速度は、1〜100コマ／秒で調整できます。
